@@ -1,4 +1,5 @@
-#### 分割文件路径中的内容
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+#### 鍒嗗壊鏂囦欢璺緞涓殑鍐呭
 how to use:
 ```cpp
 	std::string path = "D:/test/test.txt";
