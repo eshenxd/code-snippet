@@ -2,7 +2,7 @@
  *	Name:log.hpp
  *	Time:2017-1-23
  *	Author:ethan
- *	Version:1.0
+ *	Version:1.1
  *	Remark:
  */
 	
@@ -14,6 +14,10 @@
 
 #ifdef _WIN32
 #define _CRT_SECURE_NO_WARNINGS
+#else
+
+#endif //WIN32
+
 #include <iostream>
 #include <mutex>
 #include <string>
@@ -60,10 +64,6 @@ void myLog(int index)
 
 }
 #endif //_DEBUG
-
-
-#endif // _win32
-
 
 #endif //__LOG__HPP__
 
